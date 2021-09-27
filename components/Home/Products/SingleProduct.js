@@ -5,7 +5,7 @@ export default function SingleProduct(props) {
   return (
     <div className="p-2">
       <NextLink href={`/product/${id}`} passHref>
-        <div className="rounded overflow-hidden shadow-lg">
+        <div className="rounded overflow-hidden shadow-lg cursor-pointer">
           <img className="w-full" src={image} alt="Mountain" />
           <div className="text-center">
             <h5 className="py-2">{name}</h5>

@@ -10,10 +10,21 @@ a {
   color: inherit;
   text-decoration: none;
 }
+input:checked ~ .dot {
+  transform: translateX(100%);
+  background-color: #48bb78;
+}
+
+/* Toggle B */
+input:checked ~ .dot {
+  transform: translateX(100%);
+  background-color: #48bb78;
+}
 
 * {
   box-sizing: border-box;
 }
 @tailwind base;
+
 @tailwind components;
 @tailwind utilities;
